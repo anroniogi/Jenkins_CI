@@ -1,5 +1,5 @@
 package org.kangwon;
-
+import java.util.Random;
 /**
  * Hello world!
  *
