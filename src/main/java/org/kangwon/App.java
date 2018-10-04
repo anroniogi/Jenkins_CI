@@ -13,7 +13,7 @@ public class App
         int score = 85;
 
         System.out.println( "KNU-7" );
-      
+
         if(score>=90) {
             System.out.println("점수가 90보다 큽니다.");
             System.out.println("등급은 A 입니다.");
@@ -24,6 +24,11 @@ public class App
 
         Person person = new Person("JJunney",15);
         person.intro();
+        Person sanggu = new Person("SangGyu", 26);
+        sanggu.setMost("소나");
+        sanggu.setTier("실버5");
+        sanggu.intro();
+
 
         Schedule first = new Schedule();
         first.setDay(5);
