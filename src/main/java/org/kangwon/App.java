@@ -13,5 +13,9 @@ public class App
         Person person = new Person("JJunney",15);
         person.intro();
         System.out.println( "KNU-7" );
+        Schedule first = new Schedule();
+        first.setDay(5);
+        first.setTime(450);
+        System.out.println( "day : "+first.getDay()+"\n"+"time : "+first.getTime() );
     }
 }
